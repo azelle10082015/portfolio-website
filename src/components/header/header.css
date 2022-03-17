@@ -1,0 +1,103 @@
+header {
+    height: 100vh;
+    padding: 1rem;
+    /*hide any contain that goes out of the div dimension*/
+    /*You can also use the properties auto(put scrollbar where need),scroll(put scroll at a specify place)*/
+}
+
+.header__container {
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+
+/*################# Hire #################*/
+
+.cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+/*############### header social ###################*/
+
+.header-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 10rem;
+    top: 37%;
+}
+
+.header-social::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/*#################### me ##################*/
+
+.me img {
+    width: 70%;
+    margin-top: 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+
+/*####################### scroll down #########################*/
+
+.scroll_down {
+    position: absolute;
+    right: 3rem;
+    top: 37%;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+/*################# Media Query Medium Devises(tablets) #####################*/
+
+
+/*maximum size for tablet:1024px*/
+
+@media screen and (max-width:1024px) {
+    header {
+        height: 75vh;
+    }
+    .me img {
+        width: 100%;
+    }
+    .scroll_down {
+        position: absolute;
+        right: 0.5rem;
+        top: 42%;
+    }
+    .header-social {
+        position: absolute;
+        left: 2rem;
+    }
+}
+
+
+/*################# Media Query Small Devises(mobil phone) #####################*/
+
+
+/*maxi size for mobil:600px*/
+
+@media screen and (max-width:600px) {
+    header {
+        height: 60vh;
+    }
+    /*Those are not available on mobile phone*/
+    .header-social,
+    .scroll_down {
+        display: none;
+    }
+}
