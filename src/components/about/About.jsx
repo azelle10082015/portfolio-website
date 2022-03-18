@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me2 from '../../Assets/me.jpg'
+import me2 from '../../Assets/me2.jpg'
 import {FaAward} from 'react-icons/fa'
 import {BsCalendarMonth} from 'react-icons/bs'
 import {SiFreelancer} from 'react-icons/si'
