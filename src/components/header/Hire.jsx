@@ -1,10 +1,10 @@
 import React from 'react'
-import Edouard_Biwoule from '../../Assets/Edouard_Biwoule.pdf'
+import Resume111 from '../../Assets/Resume111.pdf'
 
 function Hire() {
   return (
     <div className='cta'>
-        <a href={Edouard_Biwoule} download className='btn'>Download Resume</a>
+        <a href={Resume111} className='btn' download>Download Resume</a>
         <a href='#contact' className='btn btn-primary'>Hire ME</a>
     </div>
   )
