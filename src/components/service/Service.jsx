@@ -19,7 +19,8 @@ function Service() {
                <p>Matching your chosen web page colors and the variant colors</p>
             </li>
             <li>
-               <BsFillPersonCheckFill className='service__list-icon'/><p>Matching Your website picture and the brightness </p>
+               <BsFillPersonCheckFill className='service__list-icon'/>
+               <p>choosing Your website pictures and the brightness </p>
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
@@ -34,11 +35,12 @@ function Service() {
                <p>Good Readability and visualization of the text and icons on your page</p>
             </li>
             <li>
-               <BsFillPersonCheckFill className='service__list-icon'/><p>Consistency of the chosen design; color, animation on your entire page</p>
+               <BsFillPersonCheckFill className='service__list-icon'/>
+               <p>Consistency of the chosen design; color, animation on your entire page</p>
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
-               <p>Responsibility on different devise size</p>
+               <p>Responsibility on different devises size</p>
             </li>
           </ul>
         </article>
@@ -90,15 +92,15 @@ function Service() {
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
-               <p>Launching Website and Web-page</p>
+               <p>Deploying and launching Website and Web-page on internet</p>
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
-               <p>Web application for Android and ios</p>
+               <p>Phone application for Android and ios</p>
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
-               <p></p>
+               <p>Web application and web page</p>
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
@@ -110,7 +112,7 @@ function Service() {
             </li>
             <li>
                <BsFillPersonCheckFill className='service__list-icon'/>
-               <p>Clown website</p>
+               <p>Clone website</p>
             </li>
           </ul>
         </article>

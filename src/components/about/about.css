@@ -82,6 +82,7 @@
     }
     .about__me {
         width: 50%;
+        height: 50%;
         margin: 2rem auto 4rem;
     }
     .about__content p {
@@ -98,6 +99,7 @@
 @media screen and (max-width:600px) {
     .about__me {
         width: 75%;
+        height: 75%;
         margin: 0 auto 3rem;
     }
     .about__cards {

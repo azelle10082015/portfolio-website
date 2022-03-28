@@ -34,7 +34,7 @@ function Header() {
          <h5>Hello I'm</h5>
          <h1>Edouard Biwoule</h1>
          <h5 className='text-light'>Frontend/React Developer</h5>
-         <h5>My Website,</h5>
+         <h5>My Website</h5>
          <a href='#portfolio'><h2 className='portfolio' >PORTFOLIO</h2></a>
          <HeaderSocial/>
          <Hire/>

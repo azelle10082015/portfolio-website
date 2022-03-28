@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me2 from '../../Assets/me2.jpg'
+import me2 from '../../Assets/img-p1.jpg'
 import {FaAward} from 'react-icons/fa'
 import {BsCalendarMonth} from 'react-icons/bs'
 import {SiFreelancer} from 'react-icons/si'
@@ -14,7 +14,7 @@ function About() {
     <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={me2} alt='About Image'/>
+            <img src={me2} alt=''/>
           </div>
         </div>
       
@@ -30,7 +30,7 @@ function About() {
 
           <article className='about__card'>
           <FaAward className='about__icon'/>
-           <h5><a href="https://www.freecodecamp.org/fccac62900c-709c-4ae1-a1f5-2cff0af2833b" target='_blank'>Certificates</a></h5>
+           <h5><a href="https://www.freecodecamp.org/fccac62900c-709c-4ae1-a1f5-2cff0af2833b" target='_blank'  rel="noreferrer">Certificates</a></h5>
            <small>4+ Certificates</small>
           </article>
           
@@ -43,7 +43,7 @@ function About() {
         <p>
           I went to college for computer science and completed 3 certificates in frontend development. I am
           passionate about programming and technology; as a self-taught, I read a lot. Science and technology
-          are moving so fast that sometimes companies can't follow it up so my zeal to learn will be a great
+          are moving so fast that sometimes companies can't follow it up so my zeal and my abnegation to learn will be a great
           input to your company in an industry that is mutating every day. I love discovering new technologies so I
           am learning every day, yet there is still so much to learn...
         </p>

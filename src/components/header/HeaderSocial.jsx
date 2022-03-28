@@ -8,10 +8,10 @@ import {FiCodepen} from 'react-icons/fi'
 function HeaderSocial() {
   return (
     <div className='header-social'>
-        <a href='https://www.linkedin.com' target='_blank'><FaLinkedin/></a>
-        <a href='https://my.indeed.com' target='_blank'><SiIndeed/></a>
-        <a href='https://github.com' target='_blank'><BsGithub/></a>
-        <a href='https://codepen.com' target='_blank'><FiCodepen/></a>
+        <a href='https://www.linkedin.com' target='_blank' rel="noreferrer"><FaLinkedin/></a>
+        <a href='https://www.linkedin.com/feed/' target='_blank' rel="noreferrer"><SiIndeed/></a>
+        <a href='https://github.com/azelle10082015' target='_blank' rel="noreferrer"><BsGithub/></a>
+        <a href='https://codepen.io/Azelle' target='_blank' rel="noreferrer"><FiCodepen/></a>
     </div>
   )
 }
