@@ -18,19 +18,19 @@ function Contact() {
           <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>edouardbiwoule@gmail.com</h5>
-            <a href='mailto:edouardbiwoule@gmail.com' target='_blank'>Send an email</a>
+            <a href='mailto:edouardbiwoule@gmail.com' target='_blank' rel="noreferrer">Send an email</a>
           </article>
           <article className="contact__option">
           <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>facebook</h5>
-            <a href='https://m.me//edward.mink.5/' target='_blank'>Messenger</a>
+            <a href='https://m.me//edward.mink.5/' target='_blank' rel="noreferrer">Messenger</a>
           </article>
           <article className="contact__option">
           <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+018173786689</h5>
-            <a href='https://api.whatsapp.com/sendphone=+018173786689' target='_blank'>WhatsApp</a>
+            <a href='https://api.whatsapp.com/sendphone=+018173786689' target='_blank' rel="noreferrer">WhatsApp</a>
           </article>
           <article>
           <Comments 

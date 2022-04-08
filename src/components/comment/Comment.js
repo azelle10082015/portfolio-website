@@ -31,7 +31,7 @@ const Comment = ({
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src={me3} />
+        <img src={me3} alt=''/>
       </div>
       <div className="comment-right-part">
         <div className="comment-content">

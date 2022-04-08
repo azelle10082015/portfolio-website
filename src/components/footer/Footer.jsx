@@ -20,10 +20,10 @@ function Footer() {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com" target='_blank'><AiOutlineFacebook/></a>
-        <a href="https://twitter.com" target='_blank'><AiOutlineTwitter/></a>
-        <a href="https://instagram.com" target='_blank'><AiOutlineInstagram/></a>
-        <a href="https://linkedin.com" target='_blank'><AiOutlineLinkedin/></a>
+        <a href="https://facebook.com" target='_blank' rel="noreferrer"><AiOutlineFacebook/></a>
+        <a href="https://twitter.com" target='_blank' rel="noreferrer"><AiOutlineTwitter/></a>
+        <a href="https://instagram.com" target='_blank' rel="noreferrer"><AiOutlineInstagram/></a>
+        <a href="https://linkedin.com" target='_blank' rel="noreferrer" ><AiOutlineLinkedin/></a>
       </div>
       <div className="footer__copyright">
         <small>Irving,USA&copy;2022. All rights reserved:by Azelle</small>
