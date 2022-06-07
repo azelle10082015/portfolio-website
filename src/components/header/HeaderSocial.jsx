@@ -9,7 +9,7 @@ function HeaderSocial() {
   return (
     <div className='header-social'>
         <a href='https://www.linkedin.com' target='_blank' rel="noreferrer"><FaLinkedin/></a>
-        <a href='https://www.linkedin.com/feed/' target='_blank' rel="noreferrer"><SiIndeed/></a>
+        <a href='https://www.indeed.com' target='_blank' rel="noreferrer"><SiIndeed/></a>
         <a href='https://github.com/azelle10082015' target='_blank' rel="noreferrer"><BsGithub/></a>
         <a href='https://codepen.io/Azelle' target='_blank' rel="noreferrer"><FiCodepen/></a>
     </div>

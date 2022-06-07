@@ -42,10 +42,10 @@ function About() {
         </div>
         <p>
           I went to college for computer science and completed 3 certificates in frontend development. I am
-          passionate about programming and technology; as a self-taught, I read a lot. Science and technology
-          are moving so fast that sometimes companies can't follow it up so my zeal and my abnegation to learn will be a great
-          input to your company in an industry that is mutating every day. I love discovering new technologies so I
-          am learning every day, yet there is still so much to learn...
+         passionate about programming and technology. As a self-taught, I read a lot; science and technology
+         are moving so fast that sometimes companies can't follow it up, my zeal to learn will be a great input
+         to your company in an industry that is mutating every day. I love discovering new technologies, so I
+         am learning every day, yet there is still so much to learn... 
         </p>
         <a href='#contact' className='btn btn-primary'>let's Talk</a>
       </div>
