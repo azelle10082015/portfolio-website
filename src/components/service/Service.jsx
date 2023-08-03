@@ -16,7 +16,9 @@ function Service() {
           <ul className="service__list">
             <li>
               <BsFillPersonCheckFill className="service__list-icon" />
-              <p>Matching your chosen web page colors and the variant colors</p>
+              <p>
+                Matching your choosing web page colors and the variant colors
+              </p>
             </li>
             <li>
               <BsFillPersonCheckFill className="service__list-icon" />
