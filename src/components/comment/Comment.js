@@ -1,5 +1,5 @@
 import CommentForm from "./CommentForm";
-import me3 from '../../Assets/me3.jpg'
+import me3 from "../../Assets/me3.jpg";
 
 const Comment = ({
   comment,
@@ -31,7 +31,7 @@ const Comment = ({
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src={me3} alt=''/>
+        <img src={me3} alt="" />
       </div>
       <div className="comment-right-part">
         <div className="comment-content">
