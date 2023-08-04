@@ -1,12 +1,12 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1.5fr);
     gap: 3rem;
 }
 
-.service {
+.service__item {
     background: var(--color-bg-variant);
-    border-radius: 2rem 2rem;
+    border-radius: 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
@@ -59,10 +59,11 @@
 @media screen and (max-width:1024px) {
     .services__container {
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        gap: 1rem;
     }
-    .service {
+    .service__item {
         height: auto;
+        margin: auto;
     }
 }
 
@@ -75,6 +76,6 @@
 @media screen and (max-width:600px) {
     .services__container {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 }

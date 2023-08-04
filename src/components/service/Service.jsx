@@ -7,8 +7,9 @@ function Service() {
     <section id="service">
       <h5>what I Offer</h5>
       <h2>Services</h2>
+
       <div className="container services__container">
-        <article className="service">
+        <article className="service__item">
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
@@ -52,7 +53,7 @@ function Service() {
             </li>
           </ul>
         </article>
-        <article className="service">
+        <article className="service__item">
           <div className="service__head">
             <h3>React Development</h3>
           </div>
@@ -90,7 +91,7 @@ function Service() {
             </li>
           </ul>
         </article>
-        <article className="service">
+        <article className="service__item">
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>

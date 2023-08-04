@@ -1,13 +1,13 @@
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.3rem;
-    border-radius: 2rem;
+    border-radius: 2rem 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -44,6 +44,9 @@
         grid-template-columns: 1fr 1fr;
         gap: .2rem;
     }
+    .portfolio {
+        height: auto;
+    }
 }
 
 
@@ -55,6 +58,6 @@
 @media screen and (max-width:600px) {
     .portfolio__container {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 }

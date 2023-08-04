@@ -1,12 +1,12 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1.5fr);
+    gap: 3rem;
 }
 
 .experience__container>div {
     background: var(--color-bg-variant);
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -26,13 +26,14 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
 }
 
 .experience__details {
     display: flex;
     gap: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .experience__details-icon {
@@ -48,16 +49,22 @@
 
 @media screen and (max-width:1024px) {
     .experience__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem;
+        padding: 0;
+        margin: 0 auto;
     }
-    .experience__container>div {
+    .experience {
+        height: auto;
+    }
+    /* .experience__container>div {
         width: 80%;
         padding: 2rem;
-        margin: 0 auto;
+       
     }
     .experience__content {
         padding: 1rem;
-    }
+    } */
 }
 
 
@@ -68,10 +75,11 @@
 
 @media screen and (max-width:600px) {
     .experience__container {
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .experience__container>div {
+    /* .experience__container>div {
         width: 100%;
         padding: 2rem 1rem;
-    }
+    } */
 }
