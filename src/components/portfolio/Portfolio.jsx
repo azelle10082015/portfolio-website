@@ -20,6 +20,9 @@ function Portfolio() {
             <img src={smallbiz} alt="" />
           </div>
           <h3>SmallBiz</h3>
+          <h5>
+            <i>client project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://smallbiz.com/"
@@ -37,6 +40,9 @@ function Portfolio() {
             <img src={Birthday} alt="" />
           </div>
           <h3>My Family Birthday Reminder App</h3>
+          <h5>
+            <i>personal project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/azelle10082015/Familly-Birthday"
@@ -53,6 +59,9 @@ function Portfolio() {
             <img src={mitel} alt="" />
           </div>
           <h3>MITEL</h3>
+          <h5>
+            <i>client project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://www.mitel.com/"
@@ -70,6 +79,9 @@ function Portfolio() {
             <img src={toDo} alt="" />
           </div>
           <h3>ToDo-list App</h3>
+          <h5>
+            <i>personal project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/azelle10082015/ToDo-List"
@@ -87,7 +99,9 @@ function Portfolio() {
             <img src={deliver} alt="" />
           </div>
           <h3>Delivery App</h3>
-          <i>unfinished project</i>
+          <h5>
+            <i>unfinished/personal project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com"
@@ -104,6 +118,9 @@ function Portfolio() {
             <img src={hair2} alt="" />
           </div>
           <h3>The Right Hair Styles</h3>
+          <h5>
+            <i>client project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://therighthairstyles.com"
@@ -121,7 +138,9 @@ function Portfolio() {
             <img src={passenger} alt="" />
           </div>
           <h3>Passenger: My rider App</h3>
-          <i>unfinished project</i>
+          <h5>
+            <i>unfinished/personal project</i>
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com"
