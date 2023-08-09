@@ -6,7 +6,7 @@
 
 .portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1.5rem 0rem 1.5rem 1.5rem;
     border-radius: 2rem;
     width: fit-content;
     height: fit-content;
@@ -21,8 +21,8 @@
 }
 
 .portfolio__item-image img {
-    width: 400px;
-    height: 300px;
+    width: 90%;
+    height: 95%;
     border-radius: 1.5rem;
 }
 
@@ -63,9 +63,4 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    /* .portfolio__item {
-        display: table-column;
-        align-items: center;
-        justify-content: center;
-    } */
 }

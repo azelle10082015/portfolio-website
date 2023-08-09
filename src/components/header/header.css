@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding: 1rem;
+    /* height: 100vh;
+    padding: 1rem; */
     /*hide any contain that goes out of the div dimension*/
     /*You can also use the properties auto(put scrollbar where need),scroll(put scroll at a specify place)*/
 }
@@ -45,7 +45,7 @@ header {
 
 .me img {
     margin-top: 1rem;
-    border-radius: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
 }
 
 
@@ -68,7 +68,7 @@ header {
 
 @media screen and (max-width:1024px) {
     header {
-        height: 80vh;
+        /* height: 80vh; */
     }
     .me img {
         width: 100%;
@@ -93,7 +93,7 @@ header {
 
 @media screen and (max-width:600px) {
     header {
-        height: 60vh;
+        /* height: 70vh; */
     }
     /*Those are not available on mobile phone*/
     .header-social,

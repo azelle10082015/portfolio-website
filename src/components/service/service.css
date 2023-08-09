@@ -13,7 +13,7 @@
     transition: var(--transition);
 }
 
-.service:hover {
+.service__item:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;

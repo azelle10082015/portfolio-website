@@ -6,7 +6,7 @@ import deliver from "../../Assets/delivery.jpeg";
 import passenger from "../../Assets/passenger.jpeg";
 import mitel from "../../Assets/mitel.jpg";
 import smallbiz from "../../Assets/smallbiz.jpg";
-import hair2 from "../../Assets/hair2.webp";
+import hair5 from "../../Assets/hair5.jpeg";
 
 function Portfolio() {
   return (
@@ -115,7 +115,7 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={hair2} alt="" />
+            <img src={hair5} alt="" />
           </div>
           <h3>The Right Hair Styles</h3>
           <h5>
