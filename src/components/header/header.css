@@ -29,15 +29,16 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 10rem;
-    top: 37%;
+    left: 5rem;
+    top: 72%;
 }
 
 .header-social::after {
-    content: "";
+    
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+    
 }
 
 
@@ -46,15 +47,16 @@ header {
 .me img {
     margin-top: 1rem;
     border-radius: 2rem;
+    height: 65%;
+    width: 80%;
 }
-
 
 /*####################### scroll down #########################*/
 
 .scroll_down {
     position: absolute;
-    right: 3rem;
-    top: 37%;
+    right: 4rem;
+    top: 78%;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
@@ -75,16 +77,15 @@ header {
         height: 100%;
     }
     .scroll_down {
-        position: absolute;
-        right: 0.5rem;
-        top: 42%;
+        /* position: absolute;
+        right: .3rem;
+       */
+       display: none;
     }
-    .header-social {
-        position: absolute;
-        left: 2rem;
-    }
+    /* .header-social {
+        
+    } */
 }
-
 
 /*################# Media Query Small Devises(mobil phone) #####################*/
 

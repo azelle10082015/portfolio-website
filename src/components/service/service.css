@@ -8,8 +8,8 @@
     background: var(--color-bg-variant);
     border-radius: 2rem;
     border: 1px solid var(--color-primary);
-    height: fit-content;
-    width: fit-content;
+    /* height: fit-content;
+    width: fit-content; */
     transition: var(--transition);
 }
 
