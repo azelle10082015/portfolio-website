@@ -82,9 +82,10 @@ header {
        */
        display: none;
     }
-    /* .header-social {
+    .header-social {
+        display: none;
         
-    } */
+    }
 }
 
 /*################# Media Query Small Devises(mobil phone) #####################*/
