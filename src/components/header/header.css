@@ -77,20 +77,16 @@ header {
         height: 100%;
     }
     .scroll_down {
-        /* position: absolute;
-        right: .3rem;
-       */
        display: none;
     }
     .header-social {
-        display: none;
-        
+      display:none;
+
+
     }
 }
 
 /*################# Media Query Small Devises(mobil phone) #####################*/
-
-
 /*maxi size for mobil:600px*/
 
 @media screen and (max-width:600px) {
